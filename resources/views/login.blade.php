@@ -22,7 +22,7 @@
                             <p class="text-red text-xs italic">Please enter the password.</p>
                         </div>
                         <div class="flex items-center justify-between">
-                            <button class="bg-blue hover:bg-blue-dark text-black font-bold py-2 px-4 rounded" type="button">
+                            <button class="bg-blue-100 hover:bg-blue-700 hover:text-white text-black font-bold py-2 px-4 rounded" type="button">
                                 Sign In
                             </button>
                         </div>
@@ -31,5 +31,4 @@
             </div>
         </div>
         
-
     @stop

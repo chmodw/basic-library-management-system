@@ -8,8 +8,9 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body>
-    <div>
+<body class="bg-blue-100">
+        @include('layouts.nav')
+    <div class="container mx-auto px-40">
         @yield("content")
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
