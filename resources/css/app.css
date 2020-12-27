@@ -4,4 +4,5 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "login.css"
+@import "login.css";
+@import "navigation.css";

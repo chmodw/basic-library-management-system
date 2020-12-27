@@ -19342,6 +19342,24 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+/**
+ * Toggles the mobile navigation
+ */
+
+
+var navToggleBtn = document.querySelector("#toggle-mobile-nav");
+var mobileNav = document.querySelector("#mobile-nav");
+
+navToggleBtn.onclick = function (e) {
+  e.preventDefault();
+
+  if (mobileNav.classList.contains("hidden")) {
+    mobileNav.classList.remove("hidden");
+    mobileNav.classList.add("block");
+  } else {
+    mobileNav.classList.add("hidden");
+  }
+};
 
 /***/ }),
 
