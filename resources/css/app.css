@@ -1,1 +1,3 @@
-@import "bootswatch.min.css"
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
