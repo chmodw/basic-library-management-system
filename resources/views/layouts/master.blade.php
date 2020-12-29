@@ -10,10 +10,12 @@
 
 <body class="bg-blue-100">
         @include('layouts.nav')
-    <div class="container mx-auto px-40">
+    <div class="mx-auto">
         @yield("content")
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>
+
+ 
